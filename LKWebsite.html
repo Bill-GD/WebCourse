@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liên kết Website</title>
+  </head>
+  <body>
+    <div style="width: 150px; border: double; padding: 5px 5px 30px">
+      <form action="">
+        <legend style="text-align: center; font-weight: bold; margin: 5px 5px">
+          Liên kết Website
+        </legend>
+        <select name="website" id="website" style="margin-left: 12px">
+          <option value="none">---------Tin tức---------</option>
+          <option value="www.laodong.com.vn">Báo Lao động</option>
+          <option value="www.vnexpress.net">VnExpress</option>
+          <option value="www.tuoitre.com.vn">Báo Tuổi Trẻ</option>
+        </select>
+      </form>
+      <button style="margin: 25px 0px 0px 40px" onclick="openWebsite()">
+        Mở trang
+      </button>
+    </div>
+  </body>
+  <script>
+    function openWebsite() {
+      const chosenUrl = document.getElementById("website").value;
+      chosenUrl !== "none" && window.open("https://" + chosenUrl);
+    }
+  </script>
+</html>
