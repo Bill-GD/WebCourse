@@ -1,0 +1,238 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 1046px;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}
+* a {
+  color: black;
+}
+
+/* Header & footer format, color... */
+header,
+.footer {
+  margin: 0;
+  padding: 0;
+}
+.footer div {
+  margin-top: 30px;
+  background-color: #007f74;
+  height: 50px;
+}
+.footer div:last-child {
+  margin-top: 0;
+  background: linear-gradient(to bottom, #ededed, #fff);
+  height: 100px;
+}
+
+/* Header content */
+#page-title {
+  font-size: 40px;
+  font-weight: 1000;
+  font-family: "Courier New", Courier, monospace;
+  padding: 15px 0px 15px 40px;
+  margin: 0;
+  background: linear-gradient(to top, #ededed, #fff);
+}
+#homepage {
+  color: #0e796f;
+}
+.navbar {
+  background-color: #007f74;
+  height: 35px;
+  margin: 0;
+  padding: 15px 15px 0px 20px;
+}
+.navbar-link-text {
+  color: white;
+  font-weight: bold;
+  margin: 0;
+  vertical-align: middle;
+  padding: 0px 10px 0px 10px;
+  border-right: 1px solid #00413b;
+}
+.navbar a:last-child span {
+  border: none;
+}
+
+/* main section */
+.main-body {
+  margin-top: 20px;
+  height: 590px;
+}
+div.news {
+  float: left;
+  margin-right: 20px;
+}
+.top-news {
+  width: 652px;
+}
+.news1 {
+  width: 359px;
+  padding-right: 10px;
+}
+.post-time {
+  margin-bottom: 2px;
+  margin-top: 2px;
+  font-weight: 100;
+  font-size: 11px;
+  color: #9d9d9b;
+}
+#title {
+  margin: 0;
+  font-weight: bold;
+  font-size: medium;
+}
+#summary {
+  margin: 0;
+  font-size: 13px;
+  color: #9d9d9b;
+}
+.other-top-news {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.other-top-news-article {
+  border-bottom: 1px dotted #9d9d9b;
+  padding: 5px 0px 5px 0px;
+  margin: 0;
+  display: flex;
+}
+.other-top-news-article:last-child {
+  border-bottom: none;
+  padding: 5px 0px 5px 0px;
+  margin: 0;
+  display: flex;
+}
+.other-top-news-title {
+  margin: 0 0 0 10px;
+  font-size: 11px;
+}
+
+.other-news {
+  margin-top: 20px;
+}
+.other-news-article {
+  display: flex;
+  flex-direction: row;
+  background-color: #f5f5f5;
+  border: 1px solid #e6e6e6;
+  margin-bottom: 10px;
+}
+.other-news-info {
+  margin-left: 10px;
+  margin-left: 20px;
+}
+.other-news-time {
+  font-size: small;
+  margin-top: 15px;
+}
+.other-news-title {
+  font-weight: bold;
+  font-size: large;
+  margin-top: 10px;
+}
+
+/* Sidebar */
+.sidebar {
+  overflow: hidden;
+}
+.sidebar-box {
+  background-color: #eeeeee;
+  border-top: 3px solid #4a696e;
+  margin-bottom: 20px;
+  padding-bottom: 1px;
+}
+.sidebar-title {
+  color: #4a728b;
+  font-weight: bold;
+  padding-left: 30px;
+  margin-top: 5px;
+}
+.survey-form {
+  background-color: #ffffff;
+  margin: 10px 10px 10px 10px;
+  padding: 10px;
+}
+.survey-option {
+  margin-top: 10px;
+}
+.form-buttons {
+  margin: 20px 0px;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.button-submit,
+.button-result {
+  width: 82px;
+  height: 30px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button-submit {
+  background-color: #a4a9ad;
+}
+.button-result {
+  background-color: #e95666;
+}
+.extra-links-list {
+  color: #66454c;
+  list-style-type: circle;
+}
+li {
+  padding-bottom: 15px;
+  margin-left: 0px;
+}
+
+/* Extra news */
+.extra-table {
+  border-collapse: separate;
+  border-spacing: 20px 5px;
+  margin: 0;
+}
+td.extra-header {
+  border-bottom: 3px solid #e0e0e0;
+  width: 523px;
+}
+.extra-header p {
+  background-color: #a02422;
+  font-size: 18px;
+  color: white;
+  height: 28px;
+  text-align: center;
+  width: 90px;
+  padding: 6px 10px 0px 10px;
+  margin: 0;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.extra-article {
+  padding: 5px 0px 5px 0px;
+  margin: 0;
+  display: flex;
+}
+.extra-article p {
+  padding: 5px 0px 5px 20px;
+  margin: 0;
+  font-size: larger;
+  font-weight: bold;
+  display: flex;
+}
+.sub-extra-news {
+  padding-top: 10px;
+  border-top: 1px dotted #9d9d9b;
+}
+.sub-extra-news li {
+  color: #808080;
+  list-style-type: square;
+}
+.sub-extra-news li span {
+  color: black;
+}
