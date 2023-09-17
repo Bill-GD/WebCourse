@@ -1,4 +1,7 @@
 .vscode
+Lessons
+*.zip
 *.png
-*.jpg
-Lessons/
+*.ttf
+Bootstrap/css
+Bootstrap/js
