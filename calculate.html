@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Get Sum of 2 numbers</h1>
+    <input type="text" id="num1" value="" /> First number <br />
+    <input type="text" id="num2" value="" /> Second number <br />
+    <div id="result"></div>
+    <button id="calc">Calculate</button>
+    <br />
+    <br />
+    <br />
+    <input type="text" id="array" value="" /> Array (separate using comma ',')<br />
+    <div id="resultArray"></div>
+    <button id="sumArray">Calculate</button>
+  </body>
+  <script>
+    document.getElementById('calc').addEventListener('click', () => {
+      const num1 = Number(document.getElementById('num1').value);
+      const num2 = Number(document.getElementById('num2').value);
+
+      document.getElementById('result').innerHTML = `Sum: ${num1 + num2}<br>
+      Max: ${num1 < num2 ? num2 : num1}<br>
+      Min: ${num1 < num2 ? num1 : num2}<br>
+      Num1: ${num1 % 2 == 0 ? 'Even' : 'Odd'}, Num2: ${num2 % 2 == 0 ? 'Even' : 'Odd'}`;
+    });
+
+    document.getElementById('sumArray').addEventListener('click', () => {
+      document.getElementById('resultArray').innerHTML = `Sum: ${document
+        .getElementById('array')
+        .value.split(',')
+        .map((x) => Number(x))
+        .reduce((sum, num) => sum + num)}`;
+    });
+  </script>
+</html>

@@ -1,0 +1,175 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+ul,
+ol,
+dl {
+  list-style-type: none;
+  padding: 0px;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+img {
+  width: 100%;
+}
+.header {
+  border-bottom: 4px solid #e0e0e0;
+}
+.header a {
+  color: white;
+}
+.top-header-wrapper {
+  background-color: #f0a62b;
+}
+.top-header {
+  font-weight: bold;
+  font-size: 50px;
+}
+.navbar-wrapper {
+  background-color: #a90d1a;
+}
+.navbar ul {
+  display: table;
+  vertical-align: middle;
+  padding-left: 0px;
+}
+.navbar ul li {
+  display: table-cell;
+  padding: 15px 0px 0px 20px;
+}
+.navbar ul li .navbar-item {
+  padding-right: 20px;
+  border-right: 2px solid white;
+  font-weight: bold;
+}
+.navbar ul li:last-child .navbar-item {
+  border-right: none;
+}
+.drop-down-content {
+  display: none;
+  position: absolute;
+  /* top: 70px; */
+  background-color: #f0a62b;
+  font-size: large;
+  font-weight: bold;
+}
+.drop-down-content a:first-child {
+  border-bottom: 1px solid white;
+}
+.drop-down-content a {
+  padding: 10px 30px;
+}
+.drop-down:hover .drop-down-content {
+  display: grid;
+}
+
+.main-body {
+  margin-top: 30px;
+}
+.top-news,
+.category-news,
+.extra,
+.frequently-visited .list {
+  display: flex;
+}
+.article-left {
+  display: flex;
+  padding-bottom: 70px;
+}
+.top-article-title p {
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0px;
+}
+.top-article-details {
+  margin-left: 30px;
+}
+.right-article-details {
+  margin-top: 5px;
+}
+.top-category,
+.category-top-title,
+.category-other,
+.category-title,
+#frequent-title,
+.item span:first-child,
+.form-title,
+.question {
+  font-weight: bold;
+}
+
+.category-col {
+  margin-right: 25px;
+}
+.category-title {
+  font-size: 25px;
+  border-left: 4px solid #fe631c;
+  padding-left: 20px;
+}
+.category-top-title {
+  font-size: 20px;
+}
+.category-top-summary {
+  font-size: 15px;
+}
+.category-other li {
+  border-top: 1px solid #f6f6f6;
+}
+
+.item span:first-child {
+  font-size: 50px;
+}
+#frequent-title {
+  border-bottom: 1px solid lightgray;
+}
+#frequent-title span {
+  border-bottom: 3px solid #fe631c;
+}
+.frequent-left .item {
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding-right: 10px;
+  width: 100%;
+}
+.frequent-right .item {
+  border-bottom: 1px solid lightgray;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.survey {
+  background-color: #f7f7f7;
+  border: 1px solid lightgray;
+  padding: 15px;
+  margin-top: 25px;
+}
+.form-title {
+  border-bottom: 2px solid #c9afbb;
+}
+.question {
+  margin-top: 15px;
+}
+.options div {
+  background-color: #f3f3f3;
+  border: 1px solid #e9e9e9;
+  border-radius: 3px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+button {
+  background-color: #ff7f26;
+  border: none;
+  border-radius: 3px;
+  width: 100%;
+  color: white;
+  padding: 15px 0px;
+}
+footer {
+  background-color: #a90d1a;
+  border-top: 4px solid #f0a62b;
+  height: 30px;
+  margin-top: 30px;
+}
